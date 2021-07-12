@@ -1,0 +1,90 @@
+// 語意化色票
+$drvet_orange: #f2af44;
+$drvet_red: #cb5c5c;
+$drVet_blue: #3e414f;
+$lightgrey: #efefef;
+$gray: #c4c4c4;
+
+// 共用class
+
+.bg-gray {
+  background: $drVet_blue;
+  color: $lightgrey;
+}
+
+.bg-lightgray {
+  background: $lightgrey;
+  color: #000;
+}
+
+.bg-orange {
+  background: $drvet_orange;
+  color: $lightgrey;
+}
+
+.bg-red {
+  background: $drvet_red;
+  color: $lightgrey;
+}
+
+.my-btn {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "微軟正黑體";
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-red {
+  color: black;
+  background-color: $drvet_orange;
+  &:hover {
+    background: none;
+    background-color: lighten($drvet_orange, 10%);
+    color: black;
+  }
+  &:active {
+    top: 1px;
+    position: relative;
+  }
+}
+
+.btn-gray {
+  color: black;
+  background-color: $lightgrey;
+  &:hover {
+    background: none;
+    background-color: lighten($lightgrey, 10%);
+    color: black;
+  }
+  &:active {
+    top: 1px;
+    position: relative;
+  }
+}
+
+// 客制樣式
+.form-warp {
+  width: 321px;
+}
+
+.alert-wrap {
+  font-size: 24px;
+  width: 315px;
+  height: 215px;
+  span {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    font-size: 12px;
+    color: $lightgrey;
+  }
+}
+

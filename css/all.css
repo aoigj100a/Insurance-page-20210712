@@ -1,0 +1,82 @@
+@charset "UTF-8";
+.bg-gray {
+  background: #3e414f;
+  color: #efefef;
+}
+
+.bg-lightgray {
+  background: #efefef;
+  color: #000;
+}
+
+.bg-orange {
+  background: #f2af44;
+  color: #efefef;
+}
+
+.bg-red {
+  background: #cb5c5c;
+  color: #efefef;
+}
+
+.my-btn {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "微軟正黑體";
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-red {
+  color: black;
+  background-color: #f2af44;
+}
+.btn-red:hover {
+  background: none;
+  background-color: #f5c374;
+  color: black;
+}
+.btn-red:active {
+  top: 1px;
+  position: relative;
+}
+
+.btn-gray {
+  color: black;
+  background-color: #efefef;
+}
+.btn-gray:hover {
+  background: none;
+  background-color: white;
+  color: black;
+}
+.btn-gray:active {
+  top: 1px;
+  position: relative;
+}
+
+.form-warp {
+  width: 321px;
+}
+
+.alert-wrap {
+  font-size: 24px;
+  width: 315px;
+  height: 215px;
+}
+.alert-wrap span {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+  font-size: 12px;
+  color: #efefef;
+}
+
+/*# sourceMappingURL=all.css.map */
