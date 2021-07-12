@@ -1,7 +1,7 @@
 # Insurance-page-20210712
 
 - index: 個人資料使用同意書
-- html/success: 若傳送成功/偵測到未簽署同意書
+- madal: 若傳送成功/偵測到未簽署同意書
 
 ## 使用套件
 - bootstrap 5
@@ -16,6 +16,7 @@
 - 檢查點 
   1. 是否有重複的id
   2. data-bs-target 的 # 是否有打
+  3. 記得添加 class=“modal-dialog” 在正確位置
 
 ## 專案開發人員
 

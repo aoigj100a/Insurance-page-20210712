@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>madals</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <button type="button" data-bs-toggle="modal" data-bs-target="#modalAgree">Modal Agree</button>
+  <button type="button" data-bs-toggle="modal" data-bs-target="#modalSuccess">Modal Success</button>
+
+  <!-- Modal Agree -->
+  <div class="modal fade" id="modalAgree" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog alert-wrap agree bg-red d-flex flex-column justify-content-center align-items-center">
+      <form>
+        <div class="agree-title py-3">飼主未簽署個資同意書</div>
+        <div class="agree-info">
+          <input type="text" class="form-control" id="phone" placeholder="請輸入電話" value="">
+          <span class="">將會傳送個資同意書連結至飼主手機以供填寫</span>
+        </div>
+        <div class="btn-warp d-flex mt-2">
+          <a href="#" class="my-btn btn-gray">確認</a>
+          <a href="#" class="my-btn btn-gray">取消</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal Success -->
+  <div class="modal fade" id="modalSuccess" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog success alert-wrap bg-orange d-flex flex-column justify-content-center align-items-center">
+      <div class="success-title py-5">傳送成功</div>
+      <div class="success-info"></div>
+      <a href="#" class="my-btn btn-gray">送出</a>
+    </div>
+  </div>
+
+
+  <script src="js/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
