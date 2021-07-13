@@ -13,6 +13,7 @@
 - Modal 本身的最外層父元素除了class="modal fade"，還需裝上屬性  id="被操控元素的id" tabindex="-1"  aria-hidden="true"
 - 父元素內層（也就是裝載樣式的那一層）需要加 class=“modal-dialog”
 - 將範例程式碼的內的按鈕全部刪除不會影響元件運作，刪除aria-labelledby="exampleModalLabel" 也不影響運作
+- 內層需要class="modal-content"，因為樣式會被蓋過，自己寫了 my-modal-content 取代。
 - 檢查點 
   1. 是否有重複的id
   2. data-bs-target 的 # 是否有打

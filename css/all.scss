@@ -88,3 +88,17 @@ $gray: #c4c4c4;
   }
 }
 
+.success {
+  height: 100vh;
+}
+
+
+.my-modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  border-radius: 0.3rem;
+  outline: 0;
+}

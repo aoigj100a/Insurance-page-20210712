@@ -79,4 +79,18 @@
   color: #efefef;
 }
 
+.success {
+  height: 100vh;
+}
+
+.my-modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
 /*# sourceMappingURL=all.css.map */
