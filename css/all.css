@@ -83,6 +83,10 @@
   height: 100vh;
 }
 
+.agree {
+  height: 100vh;
+}
+
 .my-modal-content {
   position: relative;
   display: flex;
