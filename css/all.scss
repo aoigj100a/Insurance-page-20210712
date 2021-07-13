@@ -46,7 +46,6 @@ $gray: #c4c4c4;
   color: black;
   background-color: $drvet_orange;
   &:hover {
-    background: none;
     background-color: lighten($drvet_orange, 10%);
     color: black;
   }
@@ -60,7 +59,6 @@ $gray: #c4c4c4;
   color: black;
   background-color: $lightgrey;
   &:hover {
-    background: none;
     background-color: lighten($lightgrey, 10%);
     color: black;
   }
@@ -69,6 +67,21 @@ $gray: #c4c4c4;
     position: relative;
   }
 }
+
+.btn-outline-red {
+  color: $lightgrey;
+  background-color: $drvet_red;
+  border: 1px solid #c4c4c4;
+  &:hover {
+    color: $lightgrey;
+    background-color: lighten($drvet_red, 10%);
+  }
+  &:active {
+    top: 1px;
+    position: relative;
+  }
+}
+
 
 // 客制樣式
 .form-warp {

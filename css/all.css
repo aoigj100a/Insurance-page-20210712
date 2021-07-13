@@ -39,7 +39,6 @@
   background-color: #f2af44;
 }
 .btn-red:hover {
-  background: none;
   background-color: #f5c374;
   color: black;
 }
@@ -53,11 +52,24 @@
   background-color: #efefef;
 }
 .btn-gray:hover {
-  background: none;
   background-color: white;
   color: black;
 }
 .btn-gray:active {
+  top: 1px;
+  position: relative;
+}
+
+.btn-outline-red {
+  color: #efefef;
+  background-color: #cb5c5c;
+  border: 1px solid #c4c4c4;
+}
+.btn-outline-red:hover {
+  color: #efefef;
+  background-color: #d78383;
+}
+.btn-outline-red:active {
   top: 1px;
   position: relative;
 }
